@@ -239,7 +239,7 @@ var themes = [
     title: "Purple Blue",
     primary: "#6366f1",
     secondary: "#8b5cf6",
-    accent: "#ec4899",
+    accent: "#a855f7",
   },
   {
     title: "Pink Orange",
@@ -263,7 +263,7 @@ var themes = [
     title: "Red Rose",
     primary: "#ef4444",
     secondary: "#f43f5e",
-    accent: "#f97316",
+    accent: "#fb7185",
   },
   {
     title: "Amber Orange",
@@ -325,7 +325,7 @@ resetSettings.addEventListener("click", function () {
 
   document.documentElement.style.setProperty("--color-secondary", "#8b5cf6");
 
-  document.documentElement.style.setProperty("--color-accent", "#ec4899");
+  document.documentElement.style.setProperty("--color-accent", "#a855f7");
 
   sidebar.classList.add("translate-x-full");
   sidebar.classList.remove("translate-x-0");
